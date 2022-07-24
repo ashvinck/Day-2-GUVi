@@ -1,0 +1,12 @@
+﻿Difference between document and window objects
+
+
+A web browser is made up of a hierarchy of objects. At root level we have a window object.
+Window    
+         Window is the first thing that gets loaded into the browser as it is the top most object and outermost element of the object hierarchy.
+Document
+         The document object is the html, aspx, php, or other document that will be loaded into the browser. The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc.
+
+
+We can access properties of the respective objects by using window.property and windows.document.property.
+Both windows and documents have properties and methods , although few method names are the same in both objects with different behaviour.
